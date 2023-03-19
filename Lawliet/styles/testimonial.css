@@ -1,0 +1,124 @@
+
+.testimonialheader{
+    background-color: #ecedef;
+}
+
+
+.testimonial{
+    padding: 20px 15px 50px;
+}
+.innerp{
+	Font-family: Poppins;
+Font-style: Regular;
+Font-size: 14px;
+Line-height: 24px;
+Line-height: 114%;
+text-align: Center;
+letter-spacing: 0.5px;
+color: #4F4F4F;
+}
+.headp{
+	color: #151617;
+Font-family: Poppins;
+Font-style: Medium;
+Font-size: 18px;
+Line-height: 28px;
+Line-height: 104%;
+text-align: Center;
+vertical-align: Top;
+}
+.owl-theme .owl-controls{
+    position: absolute;
+    top:35%;
+    width: 100%;
+}
+.owl-theme .owl-controls .owl-buttons div{
+ 
+    background: transparent;
+    opacity: .8;
+    color: #151617;
+    font-size: 35px;
+}
+
+.owl-prev,
+.owl-next{
+    height: 52px;
+    line-height: 45px;
+	color: #333;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f177";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+}
+.owl-next:before{
+    content: "\f178"
+}
+.owl-theme .owl-controls .owl-prev{
+    position: absolute;
+    left:0;
+}
+.owl-theme .owl-controls .owl-next{
+    position: absolute;
+    right:0;
+
+}
+.testimonial .description{
+    background: #ffff;
+    border-radius: 6px;
+    padding: 45px 35px;
+    position: relative;
+    margin: 10%;
+}
+.testimonial .description:after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left:48%;
+    border-top: 15px solid #ffff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.testimonial-review img{
+    border-radius: 50%;
+    float: left;
+    margin-left: 30%;
+	
+}
+.testimonial-review .testimonial-title{
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    float: left;
+    text-transform: capitalize;
+}
+.testimonial-title small{
+    display: block;
+    color: #999;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.testimonial .rating{
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.rating li{
+    display: inline-block;
+    color:#2c97de;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #2c97de;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #333;
+    opacity: 1;
+}
+@media only screen and (max-width: 480px) {
+    .testimonial-review img{
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+}
+

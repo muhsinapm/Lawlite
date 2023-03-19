@@ -1,0 +1,359 @@
+
+$primary:#094B72;
+$headgray:#2D2F30;
+$lightgray:#4F4F4F;
+$terinary:#8B8C8C;
+$white:#FFFFFF;
+$fontsizeh:48px;
+$fontsizep:14px;
+$fontfamilyheading: 'Playfair Display';
+$fontpara:'Plus Jakarta Sans';
+$fontother:'Poppins';
+
+.row{
+    --bs-gutter-x:- 1.5rem !important;
+}
+.col{
+margin:0 !important;
+}
+
+
+
+.logodiv{
+    height: 0;
+    margin-top: 1.8rem;
+}
+
+.logo1{
+    height: 38.83px;
+width: 165px;
+
+}
+.navheight{
+    margin-bottom: -50px !important;
+}
+.slanted1 {
+	border-bottom: 40px solid $primary;
+	border-left: 25px solid transparent;
+	height: 0;
+	width: 100%;
+    box-shadow: -15px 0px 10px -15px $white;
+    
+}
+
+.slanted2 {
+	border-bottom: 60px solid $white;
+	border-left: 40px solid transparent;
+	height: auto;
+	width: 100%;
+    margin-left: -40px;
+    box-shadow: -15px 0px 10px -15px $white;
+}
+
+.slanted1 a{
+    color:$primary;
+}
+
+.slanted1 svg{
+
+    margin-left: 20px;
+}
+
+#socialicons{
+    fill:#F5F5F5;
+}
+.slanted1 a:hover{
+    #socialicons{
+        fill:$terinary;
+       
+    }
+
+    .colorw{
+        color: $terinary;
+        
+    }
+}
+
+.colorw{
+    color: $white;
+    
+}
+.icons{
+    margin-top: 3px;
+}
+
+.socialmedia{
+    margin-right:5rem;
+}
+ .navlinks ul{
+    li{
+        a:hover{
+    
+            border-bottom: 3px solid $primary;
+        }
+        
+         a:active{
+            
+            border-bottom: 3px solid $primary ;
+            color: red;
+            background-color: yellow;
+        }
+      
+
+    }
+}
+
+
+    .marginnava{
+    
+        margin-left: 1.8rem;
+     
+    }
+    
+    .marginnav{
+        margin-left: 4rem;
+      
+    }
+
+
+
+.searchicon{
+
+    margin-right: 2.4rem !important;
+}
+
+.contact{
+    margin-top: 5px;
+}
+.socialmedia{
+    margin-top: 5px;
+}
+/*
+.navlinks{
+
+}
+
+*/
+/*end header*/
+
+.headw{
+    font-size: Playfair Display;
+    font-size: Bold;
+    font-size: 48px;
+    line-height: 64px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+    color: #2D2F30;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.paraw{
+    
+font-family: Poppins !important;
+font-style: Regular !important;
+font-size: 20px !important;
+line-height: 36px !important;
+line-height: 120% !important;
+text-align: center !important;
+letter-spacing: 0.5px !important;
+color: $lightgray !important;
+}
+
+.whycontainer{
+    color: $white;
+    background-color: #F2F7FF;
+}
+
+.cardsection{
+    margin: 5%;
+    color: $headgray;
+    border-radius: 8px;
+    background-color: $white;
+}
+/*end why section*/
+.counthead{
+    
+    Font-family: Playfair Display;
+font-size: Bold;
+font-size: 48px;
+font-weight: 900;
+color: $white;
+vertical-align: Top;
+letter-spacing: 0.5px;
+}
+
+.countsectionh{
+
+    padding: 8%;
+background-color: $primary;
+}
+
+.countsection{
+
+    font-family:Poppins;
+font-size: Bold;
+font-size: 48px;
+font-weight: 800;
+line-height: 64px;
+color: $white;
+width: 20%;
+border-right: 3px solid #4F4F4F;
+text-align: center;
+
+}
+
+.countsectionp{
+    font-size: 12px !important;
+    color: $white;
+font-weight:1px !important;
+line-height: 32px;
+}
+
+/*end some count banner*/
+
+
+.questionsection1{
+    margin-top: 20%;
+ width: 50%;
+ padding: 3%;
+}
+
+.questionsection2{
+    width: 30%;
+    padding: 3%;
+}
+
+
+@mixin buttons {
+        Font-style: Bold;
+        Letter-spacing: 8%;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        Font-family: Plus Jakarta Sans;
+          background-color: #094B72;
+        font-weight: 500;
+        line-height: 1.4;
+        text-align: center;
+        color:#FFFFFF;
+        
+    
+}
+
+.qbutton{
+    margin-top: 6%;
+    @include buttons();
+}
+
+
+.headq{
+    Font-family: Playfair Display;
+font-size: Bold;
+font-size: 48px;
+line-height: 64px;
+line-height: 100%;
+
+margin-bottom:5%;
+vertical-align: Top;
+letter-spacing: 0.5px;
+    
+}
+
+.qpara{
+    
+font-size: Poppins;
+font-size: Regular;
+font-size: 24px;
+}
+/*end Question section*/
+
+.footersection{
+
+   
+    background-color: #094B72 !important;
+    color: #F4F5F7 !important;
+}
+.list-group-item{
+    background-color: #094B72 !important;
+    color: #F4F5F7 !important;
+    border: 0 !important;
+}
+
+/*end Footer banner*/
+.footerl{
+    background-color: $primary;
+    color: $terinary;
+}
+
+.footer{
+    background-color: #094B72 !important;
+    color: #F4F5F7 !important;
+}
+
+
+
+/*end Footer*/
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 992px) { 
+    .contact{
+        display: none;
+    }
+
+   
+    .navlinks ul{
+        li{
+            a:hover{
+                border: 0;
+              text-decoration: 2px underline solid $primary;
+          }
+          a:active{
+              border: 0; 
+              text-decoration: 2px underline solid $primary;
+              color: red;
+              background-color: yellow;
+          }
+    
+        }
+    }
+    .marginnava{
+    
+        margin-left: 1.8rem;
+    
+    }
+    
+    .marginnav{
+        margin-left: 1.8rem;
+    
+    }
+    .searchicon{
+
+        margin-left: 1.8rem;
+        border: 0;
+
+    }
+
+    .socialmedia{
+        margin-right:0;
+        margin-left: 30%;
+    }
+/*end header*/
+    
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+
+    .logo1{
+        
+        height: 28.83px;
+    width: 100px;
+    
+    }
+/*end header*/
+
+
+    
+ }
